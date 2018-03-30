@@ -4,7 +4,7 @@ tornado异步代理
 代码原版为其他人所写，偶然搜索http connect方法格式时搜到的 .... 拿过来简化了下.......
 
 
-代码比较简单，client和目标server两头读写，加了一些安全验证，主要是为了熟悉下connect方法
+代码比较简单，proxy作为tcp中继在client和目标server两头读写，加了一些安全验证，主要是为了熟悉下connect方法
 
 
 协议如下：
